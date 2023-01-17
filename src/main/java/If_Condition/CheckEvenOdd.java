@@ -1,4 +1,4 @@
-package BasicProblems;
+package If_Condition;
 
     /*
     * Problem Description

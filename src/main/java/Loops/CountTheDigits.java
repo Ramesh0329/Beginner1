@@ -26,14 +26,17 @@ public class CountTheDigits {
         Scanner sc = new Scanner(System.in);
         int T = sc.nextInt();
         for(int i = 1; i <= T; i++){
-            int cnt = 1;
             int N = sc.nextInt();
-            N = N/10;
-            while(N != 0){
-                 cnt = cnt + 1;
-                 N = N/10;
+            int count = 0;
+            if(N == 0){
+                System.out.println(1);
+            }else{
+                while(N > 0){
+                    N = N/10;
+                    count++;
+                }
+                System.out.println(count);
             }
-            System.out.println(cnt);
         }
     }
 }

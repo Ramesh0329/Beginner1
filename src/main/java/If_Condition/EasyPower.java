@@ -22,8 +22,8 @@ import java.util.Scanner;
 public class EasyPower {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        double A = sc.nextDouble();
-        double B = sc.nextDouble();
+        int A = sc.nextInt();
+        int B = sc.nextInt();
         if(B == 0){
             System.out.println(1);
         }
@@ -31,7 +31,7 @@ public class EasyPower {
             System.out.println(A);
         }
         if(B != 0){
-            double pow = Math.pow(A,B);
+            int pow = (int)Math.pow(A,B);
             System.out.println(pow);
         }
     }

@@ -31,7 +31,7 @@ public class PrintThePrimes {
                 }
             }
             if(isPrime == true){
-                System.out.println(i);
+                System.out.print(i+ " ");
             }
         }
     }

@@ -32,7 +32,6 @@ public class CountOfPrimes {
                 }
             }
             if(isPrime == true){
-                //System.out.println(i);
                 count++;
             }
         }

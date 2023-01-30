@@ -3,7 +3,7 @@ package Recursion;
 import java.util.Scanner;
 
     /*
-        * Problem Description
+            * Problem Description
             Write a function that takes to positive integers A and B and returns their LCM.
 
         * Problem Constraints

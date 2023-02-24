@@ -61,11 +61,12 @@ public class RotateMatrix {
                 arr[i][j] = sc.nextInt();
             }
         }
-        for(int i = 0; i < N; i++){
-            for(int j = 0; j < M; j++){
-                int[][] ans = rotate(arr);
-                System.out.print(Arrays.deepToString(ans));
-            }
-        }
+        System.out.print(rotate(arr));
+//        for(int i = 0; i < N; i++){
+//            for(int j = 0; j < M; j++){
+//                int[][] ans = rotate(arr);
+//                System.out.print(Arrays.deepToString(ans));
+//            }
+//        }
     }
 }
